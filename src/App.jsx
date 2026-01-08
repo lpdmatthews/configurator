@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import Experience from "./components/Experience";
 import Configurator from "./components/Configurator";
 import { CustomizationProvider } from "./contexts/Customization";
+import ShellMessenger from "./components/ShellMessenger";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </Canvas>
         <Configurator />
       </div>
+       <ShellMessenger />
     </CustomizationProvider>
   );
 }
