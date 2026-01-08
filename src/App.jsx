@@ -17,8 +17,9 @@ function App() {
           <Experience />
         </Canvas>
         <Configurator />
+        <ShellMessenger />
       </div>
-       <ShellMessenger />
+      
     </CustomizationProvider>
   );
 }
