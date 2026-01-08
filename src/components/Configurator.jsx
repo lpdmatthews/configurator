@@ -17,7 +17,7 @@ const Configurator = () => {
   return (
     <div className="configurator">
       <div className="configurator__section">
-        <div className="configurator__section__title">Chair material</div>
+        <div className="configurator__section__title">Chair material pick here</div>
         <div className="configurator__section__values">
           <div
             className={`item ${material === "leather" ? "item--active" : ""}`}
