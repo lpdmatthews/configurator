@@ -16,7 +16,7 @@ function App() {
           <fog attach="fog" args={["#213547", 10, 20]} />
           <Experience />
         </Canvas>
-        <Configurator />
+
         <ShellMessenger />
       </div>
       
